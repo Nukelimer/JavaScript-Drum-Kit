@@ -30,39 +30,39 @@ test.addEventListener('click', (e) => {
       newaudio.play();
       break;
     case 'hihat':
-      newaudio = new Audio('../sounds/hihat.wav');
+      newaudio = new Audio('./sounds/hihat.wav');
       newaudio.play();
       break;
     case 'kick':
-      newaudio = new Audio('../sounds/kick.wav');
+      newaudio = new Audio('./sounds/kick.wav');
       newaudio.play();
       break;
     case 'openhat':
-      newaudio = new Audio('../sounds/openhat.wav');
+      newaudio = new Audio('./sounds/openhat.wav');
       newaudio.play();
       break;
     case 'boom':
-      newaudio = new Audio('../sounds/boom.wav');
+      newaudio = new Audio('./sounds/boom.wav');
       newaudio.play();
       break;
     case 'ride':
-      newaudio = new Audio('../sounds/ride.wav');
+      newaudio = new Audio('./sounds/ride.wav');
       newaudio.play();
       break;
     case 'snare':
-      newaudio = new Audio('../sounds/snare.wav');
+      newaudio = new Audio('./sounds/snare.wav');
       newaudio.play();
       break;
     case 'tom':
-      newaudio = new Audio('../sounds/tom.wav');
+      newaudio = new Audio('./sounds/tom.wav');
       newaudio.play();
       break;
     case 'tink':
-      newaudio = new Audio('../sounds/tink.wav');
+      newaudio = new Audio('./sounds/tink.wav');
       newaudio.play();
       break;
     case 'hit':
-      newaudio = new Audio('../sounds/hit.wav');
+      newaudio = new Audio('./sounds/hit.wav');
       newaudio.play();
       break;
     default:
