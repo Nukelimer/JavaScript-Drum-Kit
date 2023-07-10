@@ -26,7 +26,7 @@ test.addEventListener('click', (e) => {
   let newaudio;
   switch (e.target.className) {
     case 'clap':
-      newaudio = new Audio('../sounds/clap.wav');
+      newaudio = new Audio('./sounds/clap.wav');
       newaudio.play();
       break;
     case 'hihat':
