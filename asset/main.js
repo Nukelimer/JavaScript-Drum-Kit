@@ -63,8 +63,8 @@ test.addEventListener('click', (e) => {
       break;
     case 'hit':
       newaudio = new Audio('../sounds/hit.wav');
-          newaudio.play();
-
+      newaudio.play();
+      break;
     default:
       break;
   }
